@@ -2,8 +2,18 @@ const menuToggle = document.querySelector(".menu-toggle");
 const primaryNav = document.querySelector(".primary-nav");
 const contactForm = document.querySelector("#contact-form");
 const formStatus = document.querySelector("#form-status");
+const backToTop = document.querySelector(".back-to-top");
 
 document.querySelector("#current-year").textContent = new Date().getFullYear();
+
+const updateBackToTopVisibility = () => {
+  const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+  backToTop.classList.toggle("is-visible", scrollableHeight > 0 && window.scrollY >= scrollableHeight / 3);
+};
+
+window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+window.addEventListener("resize", updateBackToTopVisibility);
+updateBackToTopVisibility();
 
 menuToggle.addEventListener("click", () => {
   const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
