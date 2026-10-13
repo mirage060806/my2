@@ -58,7 +58,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-visual { position: relative; width: min(100%, 430px); justify-self: end; padding: 14px 19px 27px 0; }
 .portrait-frame { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: #d7ded5; }
 .portrait-frame::after { position: absolute; inset: 0; border: 1px solid rgb(23 33 29 / 10%); content: ""; pointer-events: none; }
-.portrait-image { height: 100%; object-fit: cover; object-position: center 35%; filter: saturate(.72); }
+.portrait-image { height: 100%; object-fit: cover; object-position: center 35%; }
 .portrait-caption { position: absolute; right: 0; bottom: 0; left: 0; min-height: 43px; padding: 0 14px; display: flex; align-items: center; justify-content: space-between; background: var(--ink); color: white; font-size: 9px; }
 .orbit-note { position: absolute; top: 11%; right: -62px; padding: 11px 15px; display: flex; gap: 9px; background: var(--lime); font-size: 9px; transform: rotate(5deg); }
 .orbit-note span:nth-child(even) { color: var(--coral); }

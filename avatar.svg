@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 625" fill="none">
+  <defs>
+    <clipPath id="frame">
+      <path d="M0 0h500v625H0z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="#dfe8d6" d="M0 0h500v625H0z" />
+    <path fill="#d8f36a" d="M57 76h333v355H57z" />
+    <path fill="#ed725a" d="M392 0h108v625H392z" />
+    <path fill="#f7f8f4" d="M0 462h500v163H0z" />
+    <path fill="#17211d" d="M36 625c10-113 88-175 214-175s204 62 214 175H36Z" />
+    <path fill="#263b32" d="M87 625c12-91 71-141 163-141s151 50 163 141H87Z" />
+    <path fill="#f2bf9e" d="M213 382h74v91c0 20-17 37-37 37s-37-17-37-37v-91Z" />
+    <path fill="#e7aa88" d="M213 382h74v48c-18 17-45 22-74 13v-61Z" />
+    <path fill="#f2bf9e" d="M164 247c0-76 37-127 86-127s86 51 86 127v60c0 67-43 119-86 119s-86-52-86-119v-60Z" />
+    <path fill="#d99778" d="M336 270c18-9 27 5 23 25-3 17-12 31-25 32l2-57ZM164 270c-18-9-27 5-23 25 3 17 12 31 25 32l-2-57Z" />
+    <path fill="#17211d" d="M151 248c-7-49 1-91 25-121 17-22 44-36 78-36 35 0 65 14 83 41 18 27 24 62 14 112-13-14-24-31-30-52-38 28-94 43-170 42Z" />
+    <path fill="#17211d" d="M164 157c15-42 49-69 98-69 37 0 66 16 82 47-22-14-41-21-60-20-27 2-43 20-68 34-15 9-32 14-52 14Z" />
+    <path stroke="#17211d" stroke-linecap="round" stroke-width="7" d="M190 258c12-8 25-8 37-1M273 257c12-7 25-7 37 1" />
+    <path fill="#17211d" d="M198 276c0-7 5-12 12-12s12 5 12 12-5 12-12 12-12-5-12-12ZM278 276c0-7 5-12 12-12s12 5 12 12-5 12-12 12-12-5-12-12Z" />
+    <path stroke="#d99778" stroke-linecap="round" stroke-width="5" d="M249 278c-2 17-9 32-14 42 5 5 11 7 18 6" />
+    <path stroke="#a94f43" stroke-linecap="round" stroke-width="6" d="M227 348c13 10 29 10 43 0" />
+    <path fill="#ef9a87" d="M181 319c13-7 26-3 32 6-9 10-21 13-33 7-5-3-5-9 1-13ZM297 325c7-9 20-13 33-6 6 4 6 10 1 13-12 6-24 3-34-7Z" opacity=".55" />
+    <path fill="#f7f8f4" d="m215 472 35 30 35-30 20 17-19 136H214l-19-136 20-17Z" />
+    <path fill="#d8f36a" d="m215 472 35 30-23 30-30-43 18-17ZM285 472l-35 30 23 30 30-43-18-17Z" />
+    <path stroke="#52634b" stroke-width="3" d="M250 532v92" />
+    <path fill="#17211d" d="M62 540h105v4H62z" opacity=".2" />
+    <text x="63" y="566" fill="#17211d" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">JUNSEO / 21</text>
+    <text x="63" y="587" fill="#52634b" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.5">GAME DEVELOPER</text>
+  </g>
+</svg>
